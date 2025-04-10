@@ -1,0 +1,142 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #121212;
+    color: #fff;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #1a1a1a;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.search-bar input {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.cta-button {
+    background: #4CAF50;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: #222;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #bbb;
+}
+
+.hero-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Featured Section */
+.featured {
+    text-align: center;
+    padding: 50px 20px;
+    background: #1a1a1a;
+}
+
+.featured-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.featured-item {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.featured-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.featured-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Contact Section */
+.contact-us {
+    text-align: center;
+    padding: 50px 20px;
+    background: #1a1a1a;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-item {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.contact-item h3 {
+    color: #4CAF50;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    color: #bbb;
+}
